@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tony's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hello, I'm Tony</h1>
+    <p>Web Developer • Creative Thinker • Lifelong Learner</p>
+        <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle">🌗 Toggle Theme</button>
+    </nav>
+</header>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="IMAGE/IMG_5677.JPG" alt="Profile Picture" class="profile-pic" />
+    <p>I’m an Information Technology student from Karatina University. I love building things with HTML, CSS, JavaScript, Python, and diving into cybersecurity and C/C++.</p>
+    <a href="Tony_CV.pdf" target="_blank" class="cv-link">Download My CV</a>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Latest Work</h3>
+      <p>
+        Check out my latest project:
+        <a href="https://github.com/Ribatony/html-javascrpit/blob/main/index%2Bjavascript.html" target="_blank">
+          Interactive HTML & JavaScript Project
+        </a>
+      </p>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <p> Email:<a href="muriutony2@gmail.com">muriutony2@gmail.com</a></p>
+            <p>Phone +254758764284</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tony-muriu-980a85275" target ="_blank">tony-muriu-980a85275</a> </p>
+            <p>Github: <a href="https://www.github.com/Ribatony" target="_blank">github.com/RibaTony</a></p>
+            <p>Twitter: <a href="https://www.x.com/riba40314935" target="_blank>">x.com/riba40314935</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/riba4031" target="_blank">instagram.com/riba4031</a></p>
+    
+  </section>
+  <!-- Chatbot -->
+  <div class="chatbot">
+    <button id="chatToggle">💬</button>
+    <div class="chat-window" id="chatWindow">
+      <div class="chat-log" id="chatLog"></div>
+      <input type="text" id="chatInput" placeholder="Type your message..." />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <p>&copy; 2024 Tony Muriu. Built with ❤️ using HTML, CSS, and JavaScript.</p>
+  </footer>
+</body>
+</html>
