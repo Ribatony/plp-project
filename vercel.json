@@ -1,0 +1,18 @@
+{
+  "headers": [
+    {
+      "source": "/Tony_CV.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"Tony_CV.pdf\""
+        }
+      ]
+    }
+  ]
+}
+
