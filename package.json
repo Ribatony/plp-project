@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Tony's Portfolio Website",
+  "main": "portfolio-website/index.html",
+  "scripts": {
+    "build": "echo 'No build step required for static site'",
+    "dev": "echo 'Open portfolio-website/index.html in your browser'"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Tony",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
