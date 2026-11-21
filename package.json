@@ -14,6 +14,7 @@
   "author": "Tony",
   "license": "MIT",
   "dependencies": {
-    "@vercel/analytics": "^1.4.1"
+    "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^2.1.0"
   }
 }
